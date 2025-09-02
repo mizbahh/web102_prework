@@ -25,7 +25,6 @@ Here's a walkthrough of implemented features:
 
 https://youtu.be/2wzh5arSTCs
 
-<img src='https://youtu.be/2wzh5arSTCs' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 Video created with MacOS Screen Recording Tool + YouTube Upload
