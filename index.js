@@ -155,11 +155,10 @@ const descriptionContainer = document.getElementById("description-container");
 const unfundedGamesCount = GAMES_JSON.filter(game => game.pledged < game.goal).length;
 
 // create a string that explains the number of unfunded games using the ternary operator
+const info = 'The purpose of our company is to fund independent games. We\'ve been in operation for 12 years.';
 const displayStr = `A total of $${totalRaised.toLocaleString()} has been raised for ${totalGames} games. Currently, 
 ${unfundedGamesCount} ${unfundedGamesCount === 1 ? "game remains" : "games remain"} unfunded. We need your help to fund these amazing games!`;
-descriptionContainer.innerHTML = displayStr;
-
-// create a new DOM element containing the template string and append it to the description container
+descriptionContainer.innerHTML = `<p>${info}</p><p>${displayStr}</p>`;
 
 /************************************************************************************
  * Challenge 7: Select & display the top 2 games
